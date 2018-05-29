@@ -2,7 +2,7 @@
  * biojs-viz-mauve
  * https://github.com/erasche/biojs-viz-mauve
  *
- * Copyright (c) 2015 Eric Rasche
+ * Copyright (c) 2015 Helena Rasche
  * Licensed under the Apache 2 license.
  */
 
@@ -26,7 +26,7 @@ describe('biojs-viz-mauve module', function(){
     it('should return a hello', function(){
 
       assert.equal(mauve.hello('biojs'), ("hello biojs"));
-      
+
       // alternative styles
       mauve.hello('biojs').should.equal("hello biojs");
     });
